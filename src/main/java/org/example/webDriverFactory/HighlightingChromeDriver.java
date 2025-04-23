@@ -28,7 +28,7 @@ public class HighlightingChromeDriver extends ChromeDriver {
 
     private void highlightElement(WebElement element) {
         JavascriptExecutor js = (JavascriptExecutor) this;
-        js.executeScript("arguments[0].style.border='3px solid green'", element);
+        js.executeScript("arguments[0].style.border='5px solid red'", element);
     }
 
     private void unhighlightElement(WebElement element) {

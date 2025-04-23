@@ -30,7 +30,7 @@ public class HighlightingEdgeDriver extends EdgeDriver {
 
     private void highlightElement(WebElement element) {
         JavascriptExecutor js = (JavascriptExecutor) this;
-        js.executeScript("arguments[0].style.border='3px solid red'", element);
+        js.executeScript("arguments[0].style.border='5px solid red'", element);
     }
 
     private void unhighlightElement(WebElement element) {

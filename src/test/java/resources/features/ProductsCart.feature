@@ -3,9 +3,9 @@ Feature: Add Products to Cart
   Background:
     Given open the main page
 
-  Scenario Outline: Add and remove product in cart
+  Scenario: Add and remove product in cart
     When click on the products button
-    * hover over the first product 
+    * hover over the first product
     * click on the add to cart button
     * click on the continue shopping button
     * click on the cart button

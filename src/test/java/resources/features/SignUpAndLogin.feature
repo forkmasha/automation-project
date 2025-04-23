@@ -45,6 +45,6 @@ Feature: Signup and Login Functionality
       Then click on the delete account button
       * verify the account deletion message "ACCOUNT DELETED!"
  Examples:
-      | email                 | password     |
-      |"testuser594@gmail.com"|"testpassword"|
-      |"premus45671@ukr.net"  |"testpassword"|
+      | email                   | password       |
+      | "testuser594@gmail.com" | "testpassword" |
+      | "premus45671@ukr.net"   | "testpassword" |
